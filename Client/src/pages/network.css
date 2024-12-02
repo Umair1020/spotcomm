@@ -1,0 +1,81 @@
+:root {
+    --body-font-family: 'proxima-nova', sans-serif;
+    ---background-color: #7F3E98;
+  }
+  .network{
+    padding: 20px;
+  }
+.network h2{
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-family: var(--body-font-family);
+}
+.network p{
+    text-align: center;
+    color: #fff;
+    width: 75%;
+    font-size: 1rem;
+    font-family: var(--body-font-family);
+    margin: auto;
+}
+@media (max-width:991px) {
+    .network h2{
+        text-align: center;
+        color: #fff;
+        font-size: 2rem;
+        font-family: var(--body-font-family);
+        font-weight: 700;
+    }
+    .network{
+        padding: 15px !important;
+      }
+    .network p{
+        text-align: center;
+        color: #fff;
+        width: 90% !important;
+        font-weight: 100;
+        font-size: 1rem;
+        font-family: var(--body-font-family);
+        margin: auto;
+    }
+    .bg3 p {
+        padding: 10px;
+    }
+}
+.network p{
+    font-weight: 500;
+    font-family: var(--body-font-family);
+}
+.bg3 p {
+    padding: 20px;
+}
+
+
+.audio-player {
+    width: 400px;
+    margin: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.progress {
+    height: 10px;
+    background-color: #ccc;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+}
+
+#current-time, #total-time {
+    margin-top: 10px;
+}

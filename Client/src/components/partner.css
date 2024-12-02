@@ -1,0 +1,41 @@
+
+  
+  .partners-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222222;
+    font-family: 'Proxima Nova', sans-serif;;
+    font-weight: bold;
+  }
+  
+  .partners-grid {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 20px; /* Space between the logos */
+  }
+  
+  .partner-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .partner-logo {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+  }
+  
+  @media (max-width: 991px) {
+    .partners-grid {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+        gap: 20px; /* Space between the logos */
+      }
+      
+  }

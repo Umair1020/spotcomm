@@ -1,0 +1,102 @@
+:root {
+  --body-font-family: 'Proxima Nova', sans-serif;
+    ---background-color: #7F3E98;
+
+}
+.about2{
+    padding-left: 20%;
+ 
+}
+.slick-track{
+display: flex !important;
+justify-content: center;
+}
+.about2 h2 {
+    font-family: var(--body-font-family);
+    color: #222222;
+    font-size: 40px;
+    font-weight: normal;
+}
+.about2 h3 {
+    font-family: var(--body-font-family);
+    color: #222222;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+@media (max-width:991px) {
+    .slick-track{
+        display: block !important;
+        margin: auto;
+       
+    }
+    .slick-active{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+#drive .title span {        color: #355492;    }    #acquisitions .title span {        color: #3497b2;    }    #groupCompanies .title span {        color: #f57f2a;    }    .new_tile_component.proxima_nova .new_tile_wrapper div p {        display: none;    }    .new_tile_component.proxima_nova .new_tile_wrapper div h2 {        margin: 0;    }    .new_tile_component.proxima_nova .new_tile_wrapper .new_tile {        display: flex;        align-items: center;    }
+
+:root {    --aboutbullet1: #7F3E98;    --aboutbullet2: #7F3E98;    --aboutbullet3: #7F3E98;    --aboutbullet4: #7F3E98;    /* --aboutbullet5: #ee3442;  --aboutbullet6: #ee3442; */}#passionate.textComponent .text .desc:not(:first-child),#respect.textComponent .text .desc:not(:first-child),#responsible.textComponent .text .desc:not(:first-child),#unyielding.textComponent .text .desc:not(:first-child) {    margin: 0 0 50px;    position: relative;    --textfontDesc: 26px !important;}#values.textComponent .text .desc:not(:first-child) {    --textfontDesc: 26px !important;    line-height: 1.3 !important;}#unyielding.textComponent .text .desc:not(:first-child) {    margin-bottom: 0;}/* #passionate.textComponent,#respect.textComponent,#responsible.textComponent,#unyielding.textComponent {    max-width: 575px;    width: 100%;} */#passionate.textComponent .text .title,#respect.textComponent .text .title,#responsible.textComponent .text .title,#unyielding.textComponent .text .title {    display: none;}#passionate.textComponent .text,#respect.textComponent .text,#responsible.textComponent .text,#unyielding.textComponent .text {    padding: 0;}#passionate.textComponent .text:before,#respect.textComponent .text:before,#responsible.textComponent .text:before,#unyielding.textComponent .text:before {    background: var(--aboutbullet1);    position: absolute;    top: 50%;    left: 0;    transform: translate(-50%, -50%);    content: "";    display: block;    width: 50px;    height: 50px;    border-radius: 50%;}#respect.textComponent .text:before {    background: var(--aboutbullet2);}#responsible.textComponent .text:before {    background: var(--aboutbullet3);}#unyielding.textComponent .text:before {    background: var(--aboutbullet4);}/* #values {    width: 100%;    max-width: unset;    min-width: unset;    max-width: 575px;} */#values .text {    padding: 0;}#values.textComponent.circularAnimation.whiteBg .circle-container {    --dimension: 380px;    width: var(--dimension) !important;    height: var(--dimension) !important;    left: 66%;}#values.textComponent.circularAnimation.whiteBg .text {    width: 100%;    margin: 0 auto;}.image-under-Text {    display: none;} .splitparsys .nexus-image img[alt="About Us"] {    max-width: 300px;    width: 100%;}.text-styling.text a {    color: #6f2c91;    text-decoration: none;    font-size: 32px;    font-family: var(--pnb);}.text-styling.text a:after {    content: "\00BB";    margin: 0 0 0 10px;}.splitparsys .textComponent {    max-width: 500px;    margin: 0 auto;}.splitparsys .textComponent .text {    padding: 0;}@media only screen and (min-width: 1440px) {    .splitparsys .textComponent {        max-width: 575px;    }}@media only screen and (max-width: 1366px) {    #values.textComponent .text .desc:not(:first-child) {        line-height: 1.65 !important;    }}@media only screen and (max-width: 1280px) {    /* #passionate.textComponent,    #respect.textComponent,    #responsible.textComponent,    #unyielding.textComponent {        max-width: 500px;    } */    .splitparsys .textComponent.circularAnimation {        max-width: 500px;    }}/* @media only screen and (max-width: 1024px) {    #passionate.textComponent .text,    #respect.textComponent .text,    #responsible.textComponent .text,    #unyielding.textComponent .text {        margin-left: 15%;    }}@media only screen and (max-width: 768px) {    #passionate.textComponent .text,    #respect.textComponent .text,    #responsible.textComponent .text,    #unyielding.textComponent .text {        margin-left: 20%;    }} */@media only screen and (max-width: 500px) {    #passionate.textComponent .text .desc:not(:first-child):before,    #respect.textComponent .text .desc:not(:first-child):before,    #responsible.textComponent .text .desc:not(:first-child):before,    #unyielding.textComponent .text .desc:not(:first-child):before {        left: -20px;    }    .about_timeline .container .abt_timeline.style1 .lftStory .firstLine {        padding: 0;    }    /* #passionate.textComponent .text,    #respect.textComponent .text,    #responsible.textComponent .text,    #unyielding.textComponent .text {        margin-left: 10%;    } */    .splitparsys.aem-GridColumn .row .col-lg-4.col-md-4.col-sm-4.col-xs-12 .image-section {        margin-bottom: 30px;    }    .splitparsys .textComponent .text .desc {        text-align: left !important;    }}@media only screen and (min-width: 1024px) {    #container3 .splitparsys:nth-child(4) .splitparsys .nexus-image {        margin-left: 50%;    }}img[src="/content/dam/nexus/en/about-wipro/background-tree-new-final.png"] {    cursor: pointer;}.quicklinks_boxes .title span {    display: none;}.circle_text {    display: none !important;}.circle_loader {    opacity: 1 !important;}.circle_loader a {    z-index: 100;    display: block !important;}.circle_wow {    display: none;}
+
+.splitparsys .title.boldText {    color: #332654;}.splitparsys .desc {    color: #332654;}/* #fiveHabits .text {    max-width: 575px;    width: 100%;    padding: 0;    margin: 0 auto;} */@media only screen and (min-width: 1025px) {    .circle_loader img:nth-child(2) {        opacity: 0;    }}@media only screen and (min-width: 768px) {    .splitparsys.aem-GridColumn.aem-GridColumn--default--12.bgGrad {        max-width: unset !important;        display: flex !important;        justify-content: center;        align-content: center;        background: rgb(240, 240, 240);        background: linear-gradient(            90deg,            rgba(240, 240, 240, 1) 0%,            rgba(240, 240, 240, 1) 50%,            rgba(232, 232, 232, 1) 50%,            rgba(232, 232, 232, 1) 100%        );    }    .bgGrad .splitparsys {        max-width: 1440px;    }    .bgGrad .white,    .bgGrad .bg-color-12 {        background: none !important;    }}@media only screen and (max-width: 768px) {    .bgGrad .white {        background: rgba(240, 240, 240, 1) !important;    }    .bgGrad .bg-color-12 {        background: rgba(232, 232, 232, 1) !important;    }}@media only screen and (max-width: 1024px) {    .circle {        height: auto !important;    }    .splitparsys .textComponent.circularAnimation {        max-width: 400px;    }}@media only screen and (min-width: 769px) {    .splitparsys.aem-GridColumn:last-child .row .col-lg-4.col-md-4.col-sm-4.col-xs-12:first-child {        /*! display: none; */        width: calc((33.33333333% / 2));    }}@media only screen and (max-width: 802px) {    .splitparsys .textComponent .text .desc br {        display: block !important;    }    #values.textComponent .text .desc:not(:first-child) {        line-height: 2.5 !important;    }}@media only screen and (max-width: 768px) {    .splitparsys.aem-GridColumn:last-child .row .col-lg-4.col-md-4.col-sm-4.col-xs-12:first-child {        display: none;    }    #drive.textComponent.circularAnimation .text {        padding: 40px 5% 0;    }}.anniversaryClick {    cursor: pointer;}.partnerIcons .nexus-image img {    cursor: pointer;}#passionate.textComponent .desc,#respect.textComponent .desc,#responsible.textComponent .desc,#unyielding.textComponent .desc {      margin-bottom: 35px;      position: relative;}
+
+
+.strategy-section {
+    padding: 60px 20px;
+    background-color: #2d2d2d; /* Set a dark background */
+    background-image: url('/public/about3.png'); /* Add the wave background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-family: var(--body-font-family);
+  }
+  
+
+  .main-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: var(--body-font-family);
+  }
+  
+  .sub-heading {
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: var(--body-font-family);
+  }
+  
+  .strategy-columns {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family: var(--body-font-family);
+  }
+  
+  .column {
+    flex: 1;
+    max-width: 30%;
+    min-width: 250px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white for columns */
+    border-radius: 10px;
+    font-family: var(--body-font-family);
+  }
+  
+  .column-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: var(--body-font-family);
+  }
+  
+  .column-description {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: var(--body-font-family);
+  }
+  
